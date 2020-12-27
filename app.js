@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.set('view engine', 'ejs');
 
 //database connection
-const dbURI = 'mongodb+srv://first_user:QT%40FY%234Bf@cluster0.8vrfm.mongodb.net/vanilla-auth';
+const dbURI = '';
 mongoose.connect(dbURI, 
     { 
         useNewUrlParser: true, 
